@@ -2,7 +2,7 @@ import genericProxyHandler from "utils/proxy/handlers/generic";
 import { asJson } from "utils/proxy/api-helpers";
 
 const widget = {
-  api: "{url}/api/v3/{endpoint}?apikey={key}",
+  api: "{url}/api/v4/{endpoint}?apikey={key}",
   proxyHandler: genericProxyHandler,
 
   mappings: {
